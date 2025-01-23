@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front Matter on Blowfish</title>
+    <link>http://localhost:1313/ja/tags/front-matter/</link>
+    <description>Recent content in Front Matter on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="http://localhost:1313/ja/tags/front-matter/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>フロントマター</title>
+      <link>http://localhost:1313/ja/docs/front-matter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ja/docs/front-matter/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/content-management/front-matter/#front-matter-variables&#34; target=&#34;_blank&#34;&gt;デフォルトの Hugo フロントマターパラメータ&lt;/a&gt;に加えて、Blowfish は個々の記事の表示をカスタマイズするための追加オプションを多数用意しています。利用可能なテーマのフロントマターパラメータをすべて以下に示します。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/front-matter/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autore Del Tema on Blowfish</title>
+    <link>http://localhost:1313/it/tags/autore-del-tema/</link>
+    <description>Recent content in Autore Del Tema on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="http://localhost:1313/it/tags/autore-del-tema/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>n9o.xyz</title>
+      <link>http://localhost:1313/it/users/e8b2eb823290677fbba3390d5cef2c35/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it/users/e8b2eb823290677fbba3390d5cef2c35/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/e8b2eb823290677fbba3390d5cef2c35/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>

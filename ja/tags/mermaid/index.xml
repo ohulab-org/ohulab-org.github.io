@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mermaid on Blowfish</title>
+    <link>http://localhost:1313/ja/tags/mermaid/</link>
+    <description>Recent content in Mermaid on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2025 Blowfish</copyright>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ja/tags/mermaid/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ショートコード</title>
+      <link>http://localhost:1313/ja/docs/shortcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ja/docs/shortcodes/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34; target=&#34;_blank&#34;&gt;デフォルトの Hugo ショートコード&lt;/a&gt;に加えて、Blowfish は機能拡張のためにいくつか独自のものを追加しています。&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/shortcodes/featured.svg" />
+    </item>
+    
+    <item>
+      <title>ダイアグラムとフローチャート</title>
+      <link>http://localhost:1313/ja/samples/diagrams-flowcharts/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ja/samples/diagrams-flowcharts/</guid>
+      <description>Mermaid を利用して簡単に図やフローチャートを記事に追加する方法。</description>
+      
+    </item>
+    
+  </channel>
+</rss>

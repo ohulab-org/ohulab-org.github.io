@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Users on Blowfish</title>
+    <link>http://localhost:1313/ja/tags/users/</link>
+    <description>Recent content in Users on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2025 Blowfish</copyright>
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ja/tags/users/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ユーザー</title>
+      <link>http://localhost:1313/ja/users/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ja/users/</guid>
+      <description>&lt;p&gt;Blowfish で構築された実際のウェブサイトです。すべてのウェブサイト一覧は &lt;a href=&#34;http://localhost:1313/users/users.json&#34;&gt;JSON 形式&lt;/a&gt; で閲覧可能です。&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

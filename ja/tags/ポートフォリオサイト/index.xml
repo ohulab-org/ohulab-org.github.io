@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ポートフォリオサイト on Blowfish</title>
+    <link>http://localhost:1313/ja/tags/%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA%E3%82%B5%E3%82%A4%E3%83%88/</link>
+    <description>Recent content in ポートフォリオサイト on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="http://localhost:1313/ja/tags/%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA%E3%82%B5%E3%82%A4%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Adam Madej - Gameplay Animator</title>
+      <link>http://localhost:1313/ja/users/15cf92fba36f0319bd4b176da554fdb9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ja/users/15cf92fba36f0319bd4b176da554fdb9/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/15cf92fba36f0319bd4b176da554fdb9/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Ignacio Conde</title>
+      <link>http://localhost:1313/ja/users/4de384e83ae8af3834cad28f6dfc6966/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ja/users/4de384e83ae8af3834cad28f6dfc6966/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/4de384e83ae8af3834cad28f6dfc6966/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>江ノ島エスカー</title>
+      <link>http://localhost:1313/ja/users/55d85e8d8c0ebdaaa61e4e9419b0027a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ja/users/55d85e8d8c0ebdaaa61e4e9419b0027a/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/55d85e8d8c0ebdaaa61e4e9419b0027a/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>micheledinelli.github.io</title>
+      <link>http://localhost:1313/ja/users/27cc5a091bef86a9b5dcfa2c035308ed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ja/users/27cc5a091bef86a9b5dcfa2c035308ed/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/27cc5a091bef86a9b5dcfa2c035308ed/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>utrodus.com</title>
+      <link>http://localhost:1313/ja/users/c562b0e606584dd96159faf763291fe1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ja/users/c562b0e606584dd96159faf763291fe1/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/c562b0e606584dd96159faf763291fe1/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Laterre Dev</title>
+      <link>http://localhost:1313/ja/users/447e2f0f6f439b915e0b57f93e49b7d6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ja/users/447e2f0f6f439b915e0b57f93e49b7d6/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/447e2f0f6f439b915e0b57f93e49b7d6/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>

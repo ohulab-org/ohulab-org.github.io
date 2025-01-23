@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sito Di Fumetti on Blowfish</title>
+    <link>http://localhost:1313/it/tags/sito-di-fumetti/</link>
+    <description>Recent content in Sito Di Fumetti on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="http://localhost:1313/it/tags/sito-di-fumetti/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>marupanda.art/marucomics</title>
+      <link>http://localhost:1313/it/users/6e0c28f8b70015dd35f332d927960d06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it/users/6e0c28f8b70015dd35f332d927960d06/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/6e0c28f8b70015dd35f332d927960d06/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>

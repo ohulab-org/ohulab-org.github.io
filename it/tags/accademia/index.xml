@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accademia on Blowfish</title>
+    <link>http://localhost:1313/it/tags/accademia/</link>
+    <description>Recent content in Accademia on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="http://localhost:1313/it/tags/accademia/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>michaeldorner.de</title>
+      <link>http://localhost:1313/it/users/d965f981aa39336ef7be5efac83c96b2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it/users/d965f981aa39336ef7be5efac83c96b2/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/d965f981aa39336ef7be5efac83c96b2/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>micheledinelli.github.io</title>
+      <link>http://localhost:1313/it/users/27cc5a091bef86a9b5dcfa2c035308ed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it/users/27cc5a091bef86a9b5dcfa2c035308ed/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/27cc5a091bef86a9b5dcfa2c035308ed/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Handbook on Teaching Empirical Software Engineering: Online Materials</title>
+      <link>http://localhost:1313/it/users/54b73306674ec7e6778b54a0a8b18b36/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it/users/54b73306674ec7e6778b54a0a8b18b36/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/54b73306674ec7e6778b54a0a8b18b36/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>

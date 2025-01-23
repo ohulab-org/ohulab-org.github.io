@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on OHULAB</title>
+    <link>http://localhost:1313/tags/technology/</link>
+    <description>Recent content in Technology on OHULAB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ohulab.org@gmail.com (Oneness of Human and Universe Laboratory)</managingEditor>
+    <webMaster>ohulab.org@gmail.com (Oneness of Human and Universe Laboratory)</webMaster>
+    <copyright>© 2025 Oneness of Human and Universe Laboratory</copyright>
+    <atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Everybody Wants Some</title>
+      <link>http://localhost:1313/users/9d30279ebc54617897215f9164a2eb27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ohulab.org@gmail.com (Oneness of Human and Universe Laboratory)</author>
+      <guid>http://localhost:1313/users/9d30279ebc54617897215f9164a2eb27/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/9d30279ebc54617897215f9164a2eb27/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>

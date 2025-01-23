@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Libro on Blowfish</title>
+    <link>http://localhost:1313/it/tags/libro/</link>
+    <description>Recent content in Libro on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="http://localhost:1313/it/tags/libro/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Handbook on Teaching Empirical Software Engineering: Online Materials</title>
+      <link>http://localhost:1313/it/users/54b73306674ec7e6778b54a0a8b18b36/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it/users/54b73306674ec7e6778b54a0a8b18b36/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/54b73306674ec7e6778b54a0a8b18b36/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>

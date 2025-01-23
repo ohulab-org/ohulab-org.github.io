@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentazione on Blowfish</title>
+    <link>http://localhost:1313/it/tags/documentazione/</link>
+    <description>Recent content in Documentazione on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="http://localhost:1313/it/tags/documentazione/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>merox.dev</title>
+      <link>http://localhost:1313/it/users/080a851b486ff5be4201f6fbe1f9616d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it/users/080a851b486ff5be4201f6fbe1f9616d/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/080a851b486ff5be4201f6fbe1f9616d/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>

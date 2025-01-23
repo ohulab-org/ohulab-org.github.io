@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front Matter on Blowfish</title>
+    <link>http://localhost:1313/it/tags/front-matter/</link>
+    <description>Recent content in Front Matter on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="http://localhost:1313/it/tags/front-matter/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Front Matter</title>
+      <link>http://localhost:1313/it/docs/front-matter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it/docs/front-matter/</guid>
+      <description>&lt;p&gt;Oltre ai &lt;a href=&#34;https://gohugo.io/content-management/front-matter/#front-matter-variables&#34; target=&#34;_blank&#34;&gt;parametri predefiniti della parte frontale di Hugo&lt;/a&gt;, Blowfish aggiunge una serie di opzioni aggiuntive per personalizzare la presentazione dei singoli articoli . Tutti i parametri disponibili per la parte frontale del tema sono elencati di seguito.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/front-matter/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

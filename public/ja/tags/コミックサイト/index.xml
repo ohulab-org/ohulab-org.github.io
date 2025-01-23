@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>コミックサイト on Blowfish</title>
+    <link>http://localhost:1313/ja/tags/%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B5%E3%82%A4%E3%83%88/</link>
+    <description>Recent content in コミックサイト on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="http://localhost:1313/ja/tags/%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B5%E3%82%A4%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>marupanda.art/marucomics</title>
+      <link>http://localhost:1313/ja/users/6e0c28f8b70015dd35f332d927960d06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1313/ja/users/6e0c28f8b70015dd35f332d927960d06/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/6e0c28f8b70015dd35f332d927960d06/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Novità on Blowfish</title>
+    <link>http://localhost:1313/it/tags/novit%C3%A0/</link>
+    <description>Recent content in Novità on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="http://localhost:1313/it/tags/novit%C3%A0/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Benvenuti a Blowfish</title>
+      <link>http://localhost:1313/it/docs/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/it/docs/welcome/</guid>
+      <description>&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  Blowfish è ricco di tantissime funzionalità.
+&lt;/div&gt;
+
+&lt;p&gt;Lo scopo originale di Blowfish era quello di sviluppare un tema semplice e leggero. Il tema è un fork del &lt;a target=&#34;_blank&#34; href=&#34;https://github.com/nunocoracao/congo&#34;&gt;Congo&lt;/a&gt; e ne espande la visione iniziale.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/welcome/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

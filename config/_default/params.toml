@@ -1,0 +1,123 @@
+colorScheme = "ocean"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+enableSearch = true
+enableCodeCopy = true
+replyByEmail = false
+disableImageOptimization = false
+disableTextInHeader = false
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v8.next.forgejo.org"
+defaultFeaturedImage = "bg0.png"
+defaultBackgroundImage = "bg0.png"
+highlightCurrentMenuArea = false
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
+
+[header]
+layout = "fixed"
+
+[footer]
+showMenu = true
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[homepage]
+layout = "custom"
+homepageImage = "bg.png"
+showRecent = true
+showRecentItems = 6
+mainSections = [ "Blog" ]
+showMoreLink = true
+showMoreLinkDest = "Blog/"
+cardView = true
+cardViewScreenWidth = false
+layoutBackgroundBlur = true
+
+[article]
+showDate = false
+showViews = true
+showLikes = true
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = true
+showHero = true
+heroStyle = "background"
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = true
+showHeadingAnchors = true
+showPagination = false
+invertPagination = true
+showReadingTime = false
+showTableOfContents = true
+showTaxonomies = true
+showAuthorsBadges = false
+showWordCount = false
+showZenMode = true
+showComments= true
+
+[list]
+showHero = true
+heroStyle = "background"
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = true
+showSummary = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = false
+orderByWeight = false
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false
+constrainItemsWidth = false
+
+[sitemap]
+excludedKinds = [ "*" ]
+
+[taxonomy]
+showTermCount = true
+showHero = true
+showBreadcrumbs = true
+showViews = false
+showLikes = false
+showTableOfContents = true
+cardView = false
+heroStyle = "background"
+tag = "tags"
+category = "categories"
+author = "authors"
+series = "series"
+
+[term]
+showHero = true
+showBreadcrumbs = true
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false
+heroStyle = "background"
+
+[firebase]
+
+[fathomAnalytics]
+
+[umamiAnalytics]
+
+[selineAnalytics]
+
+[buymeacoffee]
+
+[verification]
+
+[rssnext]

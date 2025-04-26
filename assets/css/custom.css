@@ -1,0 +1,322 @@
+
+/* 定义了首页左上角文字LOGO字体 */
+@font-face {
+  font-family: 'AllertaStencil-Regular';  /* LOGO文字字体名称 */
+  font-style: normal;
+  font-weight: 600;
+  src: url(/fonts/AllertaStencil-Regular.ttf) format('truetype');
+  }
+
+/* 定义了首页左上角文字LOGO字体 */
+@font-face {
+  font-family: 'AllertaStencil-Regular';  /* LOGO文字字体名称 */
+  font-style: normal;
+  font-weight: 600;
+  src: url(/fonts/AllertaStencil-Regular.ttf) format('truetype');
+  }
+
+/* 定义了首页左上角文字LOGO字体 */
+@font-face {
+  font-family: 'AllertaStencil-Regular';  /* LOGO文字字体名称 */
+  font-style: normal;
+  font-weight: 600;
+  src: url(/fonts/AllertaStencil-Regular.ttf) format('truetype');
+  }
+
+/* 定义了首页左上角文字LOGO字体 */
+@font-face {
+  font-family: 'AllertaStencil-Regular';  /* LOGO文字字体名称 */
+  font-style: normal;
+  font-weight: 600;
+  src: url(/fonts/AllertaStencil-Regular.ttf) format('truetype');
+  }
+
+/* 定义了首页左上角文字LOGO字体 */
+@font-face {
+  font-family: 'AllertaStencil-Regular';  /* LOGO文字字体名称 */
+  font-style: normal;
+  font-weight: 600;
+  src: url(/fonts/AllertaStencil-Regular.ttf) format('truetype');
+  }
+
+/* 定义了首页左上角文字LOGO字体 */
+@font-face {
+  font-family: 'AllertaStencil-Regular';  /* LOGO文字字体名称 */
+  font-style: normal;
+  font-weight: 600;
+  src: url(/fonts/AllertaStencil-Regular.ttf) format('truetype');
+  }
+
+/* 定义了首页左上角文字LOGO字体 */
+@font-face {
+  font-family: 'AllertaStencil-Regular';  /* LOGO文字字体名称 */
+  font-style: normal;
+  font-weight: 600;
+  src: url(/fonts/AllertaStencil-Regular.ttf) format('truetype');
+  }
+
+/* 定义了首页左上角文字LOGO样式 */
+.space-x-3-ohulab {
+    height: 4.2rem; /* 定义了文字LOGO所在导航栏行度 */
+    align-items: center;
+    font-family: 'AllertaStencil-Regular',sans-serif;
+    font-size: 20pt;
+    letter-spacing: -1.5px; /* LOGO文字间距设置 */
+    transform: scaleY(0.9);  /* 对LOGO文字字体高度压缩到原来90% */
+    transform-origin: center center;  /* 围绕XY轴居中中心压缩 */
+}
+
+/* 定义了首页中心LOGO图距上边距 */
+.mb-2-ohulab {
+  margin-bottom: .0rem;
+  margin-top: 40px;
+}
+
+/* 定义了首页中心LOGO图下第一行文字样式 */
+.text-4xl-ohulab {
+    font-family: 'AllertaStencil-Regular',sans-serif;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -3px;
+    transform: scaleY(0.9);
+    transform-origin: center center;
+    margin-bottom: 0px;
+}
+
+/* 定义了英文首页中间LOGO图下第二行文字样式 */
+.text-xl-ohulab {
+  font-family: 'AllertaStencil-Regular',sans-serif;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0px;
+  transform-origin: center center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* 定义了英文首页中间LOGO图下第三行文字样式 */
+.text-xl2-ohulab {
+  line-height: 1;
+  margin-top: 5px;
+}
+
+
+/* 定义了中文首页中间LOGO图下第二行说明文字样式 */
+.text-cnxl-ohulab {
+  font-size: 26px;
+  line-height: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transform-origin: center center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+
+/* 定义了中文首页中间LOGO图下第三行说明文字样式 */
+.text-cnxl2-ohulab {
+  font-size: 17px;
+  line-height: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  transform-origin: center center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* 定义了首页section导入_index内容区块宽度 */
+.prose-ohulab {
+  max-width: 100%;
+}
+
+
+
+
+ /* 定义了英文版首页标语下的标签样式 */
+.custom-index-tags-ohulab{
+  display: inline-block;
+  width: 260px;
+  padding-top: 4px; 
+  padding-bottom: 4px; 
+  color:inherit; 
+  font-size:13.5px; 
+  margin: 3px 3px; 
+  background-color: rgba(0, 123, 255, 0.3); 
+  text-decoration: none; 
+  border-radius: 20px;
+ }
+.custom-index-tags-ohulab:hover{
+  display: inline-block;
+  width: 260px;
+  padding-top: 4px; 
+  padding-bottom: 4px; 
+  font-size:13.5px; 
+  margin:3px 3px; 
+  background-color: rgba(4, 78, 162, 0.3); 
+  text-decoration: none; 
+  border-radius: 20px;
+ }
+ 
+
+
+
+  /* 定义了简繁体中文版首页标语下的标签样式 */
+.custom-index-cntags-ohulab{
+    display: inline-block;
+    width: 230px;
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    color:inherit; 
+    font-size:15px; 
+    letter-spacing: 2px;
+    margin: 3px 3px; 
+    background-color: rgba(0, 123, 255, 0.3); 
+    text-decoration: none; 
+    border-radius: 20px;
+   }
+.custom-index-cntags-ohulab:hover{
+    display: inline-block;
+    width: 230px;
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+    font-size:15px; 
+    letter-spacing: 2px;
+    margin:3px 3px; 
+    background-color: rgba(4, 78, 162, 0.3); 
+    text-decoration: none; 
+    border-radius: 20px;
+   }
+
+
+
+ /* 定义了首页社交媒体图标样式 */
+ .custom-icon-ohulab{
+  color:inherit; 
+  margin:0px 5px; 
+  font-size:28px;
+  text-decoration: none; 
+  transition: color 0.3s ease;
+}
+
+
+
+
+ /* 定义联系方式样式 */
+
+  /* 父元素使用 Flexbox 布局 */
+.custom-contact-parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.custom-contact-child1 {
+    /* 子元素占据的宽度 */
+    width: 55%;
+    box-sizing: border-box;
+    padding: 0px;
+    text-align: center;
+}
+.custom-contact-child2 {
+  /* 子元素占据的宽度 */
+  width: 0%;
+  box-sizing: border-box;
+  padding: 0px;
+}
+.custom-contact-child3 {
+  /* 子元素占据的宽度 */
+  width: 45%;
+  box-sizing: border-box;
+  padding: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 媒体查询，当屏幕宽度小于 768px 时（一般为手机屏幕），子元素宽度变为 100% */
+@media (max-width: 768px) {
+  .custom-contact-child1  {
+          width: 100%;
+      }
+  .custom-contact-child2  {
+        width: 100%;
+    }
+  .custom-contact-child3  {
+      width: 100%;
+  }
+}
+
+
+
+ /* 定义表单样式 */
+.custom-formcontact-container {
+  float: left; 
+  width: 100%;
+  padding: 10px 0px;
+  margin: 0 auto;
+}
+/* 输入框样式 */
+.custom-formcontact-input {
+  width: 100%;
+  padding: 8px 20px;
+  margin-bottom: 5px;
+  border: 1px solid #797a7c;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #000;
+}
+/* 输入框聚焦时的样式 */
+.custom-formcontact-input:focus {
+  outline: none;
+  border-color: #30b6f9;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+/* 输入框占位符的样式 */
+.custom-formcontact-input::placeholder {
+  color: #999;
+}
+/* 文本域样式 */
+.custom-formcontact-textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 0px;
+  border: 1px solid #797a7c;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #000;
+  min-height: 150px;
+  resize: none;
+}
+/* 文本域聚焦时的样式 */
+.custom-formcontact-textarea:focus {
+  outline: none;
+  border-color: #30b6f9;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+/* 文本域占位符的样式 */
+.custom-formcontact-textarea::placeholder {
+  color: #999;
+}
+/* 按钮样式 */
+.custom-formcontact-button {
+  padding: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: #154a83;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+/* 按钮鼠标悬停时的样式 */
+.custom-formcontact-button:hover {
+  background-color: #2487f0;
+}
+/* 按钮点击时的样式 */
+.custom-formcontact-button:active {
+  background-color: #004085;
+}

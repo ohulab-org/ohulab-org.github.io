@@ -1,0 +1,31 @@
+disabled = false
+languageCode = "zh-tw"  #文字编码
+languageName = "繁體中文"  #多语言显示名称
+weight = 3
+title = "OHULAB"
+
+[params]
+  displayName = "繁體中文"
+  isoCode = "zh-tw"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "logo1.png" #夜晚模式LOGO
+  # secondaryLogo = "logo2.png" #白天模式LOGO
+  description = "幫助人類進化文明升級的超級人工智能"
+
+[params.author]
+  image = "logo3.png" #首页中心LOGO
+  name = "OHULAB" #首页中间LOGO下名称
+  email = "ohulab.org@gmail.com"
+  # headline = "幫助人類進化與文明升級的超級人工智能"   #首页标语
+  bio = "幫助人類進化與文明升級的超級人工智能"   #文章页作者图标下说明标语
+  links = [
+    { x-twitter = "https://x.com/BlueyASI_org" },
+    { bluesky = "#" },
+    { facebook = "#" },
+    { instagram = "#" },
+    { telegram = "#" },
+    { github = "#" },
+    { email = "mailto:ohulab.org@gmail.com" },
+  ]  #文章页作者LOGO下社交媒体图标连接
+

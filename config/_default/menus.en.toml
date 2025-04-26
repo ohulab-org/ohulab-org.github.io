@@ -1,0 +1,68 @@
+[[main]]
+name = "About"
+pageRef = "About"
+weight = 1
+
+[[main]]
+name = "Vision"
+pageRef = "Vision"
+weight = 2
+
+[[main]]
+name = "Motivation"
+pageRef = "Motivation"
+weight = 3
+
+[[main]]
+name = "Projects"
+pageRef = "Projects"
+weight = 4
+
+[[main]]
+name = "Contact"
+pageRef = "Contact"
+weight = 7
+
+[[main]]
+name = "Premium"
+pageRef = "BlueyMemeCoin"
+weight = 6
+
+[[main]]
+name = "Blog"
+pageRef = "Blog"
+weight = 5
+
+[[main]]
+pre = "github"
+url = "https://github.com/BlueyASI/"
+weight = 8
+
+
+[[footer]]
+  name = "Tags"
+  pageRef = "Tags"
+  weight = 21
+
+[[footer]]
+  name = "FAQs"
+  pageRef = "FAQs"
+  weight = 22
+
+[[footer]]
+  name = "Privacy Policy"
+  pageRef = "Legal"
+  weight = 23
+
+[[footer]]
+  name = "Website Stack"
+  pageRef = "WebsiteStack"
+  weight = 24
+
+
+
+
+
+
+
+

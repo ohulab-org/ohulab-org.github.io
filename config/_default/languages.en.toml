@@ -1,0 +1,41 @@
+disabled = false
+languageCode = "en"  #文字编码
+languageName = "English"  #多语言显示名称
+weight = 1
+title = "OHULAB"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "logo1.png" #夜晚模式首页左上角图片LOGO
+  # secondaryLogo = "logo2.png" #白天模式首页左上角图片LOGO
+  description = "Oneness of Human and Universe Laboratory"
+
+[params.author]
+
+  #首页中心最显眼位置LOGO----------------------------------
+  image = "logo3.png" 
+
+  #首页中间LOGO下名称---------------------------------
+  name = "OHULAB"
+
+  # 首页标语----------------------------------
+  # headline = "Oneness-of-Human-and-Universe-Laboratory" 
+
+  #文章页LOGO下说明标语---------------------------------
+  bio = "Use a scientific approach to verify the essential nature of the unity of all things."   
+  
+  #文章页作者LOGO下社交媒体图标连接----------------------------------
+  links = [
+    { x-twitter = "https://x.com/BlueyASI_org" },
+    { bluesky = "#" },
+    { facebook = "#" },
+    { instagram = "#" },
+    { telegram = "#" },
+    { github = "#" },
+  ]  
+
+  #----------------------------------
+  email = "ohulab.org@gmail.com"

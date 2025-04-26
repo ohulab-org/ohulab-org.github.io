@@ -1,0 +1,44 @@
+<footer id="site-footer" class="py-10 print:hidden">
+
+  <div class="flex items-center justify-between" style="display: flex; flex-wrap: wrap; margin-top: 80px;">
+
+    {{/* Copyright */}}
+    <span class="text-sm text-neutral-500 dark:text-neutral-400" style="line-height: 2.5;">
+      {{ if .Site.Params.footer.showCopyright | default true }}
+        {{- with replace .Site.Params.copyright "{ year }" now.Year  }}
+        {{ . | markdownify }}
+        {{- else }}
+        {{ i18n "footer.copyright_info" }} &copy;  {{ now.Format "2006" }}  <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"  href="https://ohulab.org/" target="_blank">{{ i18n "footer.copyright_info1" }}</a>
+        {{- end }}
+      {{ end }}
+    </span>
+
+    {{/* Footer menu */}}
+    <span class="text-sm text-neutral-500 dark:text-neutral-400" style="line-height: 2.5;">
+      {{ if .Site.Params.footer.showMenu | default true }}
+        {{ if .Site.Menus.footer }}
+            {{ range .Site.Menus.footer }}
+              <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="{{ .URL }}" title="{{ .Title }}" style="margin-right: 15px;">{{ .Name | markdownify }}</a>
+            {{ end }}
+        {{ end }}
+      {{ end }}
+    </span>
+
+  </div>
+
+  <script>
+    {{ if not .Site.Params.disableImageZoom | default true }}
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {margin: 24, background: 'rgba(0,0,0,0.5)',  scrollOffset: 0,})
+    {{ end }}
+  </script>
+
+  {{ $jsProcess := resources.Get "js/process.js" }}
+  {{ $jsProcess = $jsProcess | resources.Minify | resources.Fingerprint "sha512" }}
+  <script type="text/javascript" src="{{ $jsProcess.RelPermalink }}" integrity="{{ $jsProcess.Data.Integrity }}"></script>
+  {{/* Extend footer - eg. for extra scripts, etc. */}}
+  {{ if templates.Exists "partials/extend-footer.html" }}
+  {{ partialCached "extend-footer.html" . }}
+  {{ end }}
+
+
+</footer>

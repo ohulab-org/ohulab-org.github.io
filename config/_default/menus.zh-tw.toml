@@ -1,0 +1,184 @@
+[[main]]
+name = "關於"
+pageRef = "About"
+weight = 1
+
+[[main]]
+name = "願景"
+pageRef = "Vision"
+weight = 2
+
+[[main]]
+name = "動機"
+pageRef = "Motivation"
+weight = 3
+
+[[main]]
+name = "項目"
+pageRef = "Projects"
+weight = 4
+
+[[main]]
+name = "博客"
+pageRef = "Blog"
+weight = 5
+
+[[main]]
+name = "會員"
+pageRef = "BlueyMemeCoin"
+weight = 6
+
+[[main]]
+name = "聯絡"
+pageRef = "Contact"
+weight = 7
+
+[[main]]
+pre = "github"
+url = "https://github.com/BlueyASI/"
+identifier = "iOi1LFMy41"
+weight = 8
+
+[[footer]]
+  name = "標簽導航"
+  pageRef = "Tags"
+  weight = 21
+
+[[footer]]
+  name = "問答集錦"
+  pageRef = "FAQs"
+  weight = 22
+
+[[footer]]
+name = "隱私政策"
+pageRef = "Legal"
+weight = 23
+
+[[footer]]
+name = "網站製作"
+pageRef = "WebsiteStack"
+weight = 24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

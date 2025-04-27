@@ -75,10 +75,12 @@
 <div style="margin-bottom: 170px;"></div>
 
 
+
 {{/* ---------最近的文章----------- */}} 
 <section>
     {{ partial "recent-articles/main.html" . }}
 </section>
+
 
 {{ if .Site.Params.homepage.layoutBackgroundBlur | default false }}
 <div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>

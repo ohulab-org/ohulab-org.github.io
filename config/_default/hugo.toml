@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "http://localhost:1313/"
+baseURL = "https://ohulab.org/"
 defaultContentLanguage = "en"
 
 pluralizeListTitles = false # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles

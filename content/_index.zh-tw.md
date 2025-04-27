@@ -15,7 +15,7 @@ description: ""
 
 
 <div style="margin-top:20px; white-space: nowrap;">
-<a href="https://x.com/BlueyASI_org" target="_blank" class="custom-icon-ohulab">{{< icon "x-twitter" >}}</a>
+<a href="#" target="_blank" class="custom-icon-ohulab">{{< icon "x-twitter" >}}</a>
 <a href="#" target="_blank" class="custom-icon-ohulab">{{< icon "bluesky" >}}</a>
 <a href="#" target="_blank" class="custom-icon-ohulab">{{< icon "facebook" >}}</a>
 <a href="#" target="_blank" class="custom-icon-ohulab">{{< icon "instagram" >}}</a>

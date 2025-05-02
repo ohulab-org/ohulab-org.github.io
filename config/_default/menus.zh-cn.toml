@@ -4,11 +4,6 @@ pageRef = "About"
 weight = 1
 
 [[main]]
-name = "愿景"
-pageRef = "Vision"
-weight = 2
-
-[[main]]
 name = "动机"
 pageRef = "Motivation"
 weight = 3

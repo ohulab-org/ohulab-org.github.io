@@ -13,7 +13,7 @@ defaultBackgroundImage = "bg0.png"
 highlightCurrentMenuArea = false
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
-mainSections = [ "blog" ]
+
 
 [header]
   layout = "fixed"
@@ -28,9 +28,9 @@ mainSections = [ "blog" ]
 [homepage]
   layout = "custom"
   homepageImage = "bg.png"
-  showRecent = true
+  showRecent = false
   showRecentItems = 6
-  showMoreLink = true
+  showMoreLink = false
   showMoreLinkDest = "blog"
   cardView = true
   cardViewScreenWidth = false

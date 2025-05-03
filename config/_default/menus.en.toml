@@ -18,7 +18,6 @@ name = "Projects"
 pageRef = "#"
 weight = 4
 
-
 [[main]]
 name = "Blog"
 pageRef = "#"

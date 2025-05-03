@@ -1,41 +1,43 @@
 [[main]]
 name = "About"
-pageRef = "About"
+pageRef = "#"
 weight = 1
 
 [[main]]
 name = "Vision"
-pageRef = "Vision"
+pageRef = "#"
 weight = 2
 
 [[main]]
 name = "Motivation"
-pageRef = "Motivation"
+pageRef = "#"
 weight = 3
 
 [[main]]
 name = "Projects"
-pageRef = "Projects"
+pageRef = "#"
 weight = 4
 
-[[main]]
-name = "Contact"
-pageRef = "Contact"
-weight = 7
-
-[[main]]
-name = "Premium"
-pageRef = "BlueyMemeCoin"
-weight = 6
 
 [[main]]
 name = "Blog"
-pageRef = "Blog"
+pageRef = "#"
 weight = 5
 
 [[main]]
+name = "Premium"
+pageRef = "#"
+weight = 6
+
+[[main]]
+name = "Contact"
+pageRef = "#"
+weight = 7
+
+
+[[main]]
 pre = "github"
-url = "https://github.com/BlueyASI/"
+url = "#"
 weight = 8
 
 
@@ -51,7 +53,7 @@ weight = 8
 
 [[footer]]
   name = "Privacy Policy"
-  pageRef = "Legal"
+  pageRef = "#"
   weight = 23
 
 [[footer]]

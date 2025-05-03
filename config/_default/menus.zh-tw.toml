@@ -1,41 +1,41 @@
 [[main]]
 name = "關於"
-pageRef = "About"
+pageRef = "#"
 weight = 1
 
 [[main]]
 name = "願景"
-pageRef = "Vision"
+pageRef = "#"
 weight = 2
 
 [[main]]
 name = "動機"
-pageRef = "Motivation"
+pageRef = "#"
 weight = 3
 
 [[main]]
 name = "項目"
-pageRef = "Projects"
+pageRef = "#"
 weight = 4
 
 [[main]]
 name = "博客"
-pageRef = "Blog"
+pageRef = "#"
 weight = 5
 
 [[main]]
 name = "會員"
-pageRef = "BlueyMemeCoin"
+pageRef = "#"
 weight = 6
 
 [[main]]
 name = "聯絡"
-pageRef = "Contact"
+pageRef = "#"
 weight = 7
 
 [[main]]
 pre = "github"
-url = "https://github.com/BlueyASI/"
+url = "#"
 identifier = "iOi1LFMy41"
 weight = 8
 
@@ -51,7 +51,7 @@ weight = 8
 
 [[footer]]
 name = "隱私政策"
-pageRef = "Legal"
+pageRef = "#"
 weight = 23
 
 [[footer]]

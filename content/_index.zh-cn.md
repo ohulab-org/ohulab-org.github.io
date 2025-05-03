@@ -5,10 +5,8 @@ description: ""
 
 
 <br>
-
-<h1>建设中，敬请期待!</h1>
-
-
+<h1>天人合一科学实验</h1>
+<h1>Coming Soon!</h1>
 
 
 

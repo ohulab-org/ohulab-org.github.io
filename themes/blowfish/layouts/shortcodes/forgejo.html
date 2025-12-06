@@ -2,14 +2,15 @@
 {{- $forgejoURL := print (.Get "server" | default .Site.Params.forgejoDefaultServer) "/api/v1/repos/" (.Get "repo") -}}
 {{- $repoColors := .Site.Data.repoColors -}}
 {{- $forgejoData := dict -}}
-{{- with try (resources.GetRemote $forgejoURL) -}}
-  {{- with .Err -}}
+{{- $forgejoResource := resources.GetRemote $forgejoURL -}}
+{{- with $forgejoResource -}}
+  {{- if .Err -}}
     {{- warnf "forgejo shortcode: failed to fetch remote resource from %q: %s" $forgejoURL $.Position -}}
-  {{- else with .Value -}}
-    {{- $forgejoData = . | transform.Unmarshal -}}
   {{- else -}}
-    {{- warnf "forgejo shortcode: unable to get remote resource from %q: %s" $forgejoURL $.Position -}}
+    {{- $forgejoData = .Value | transform.Unmarshal -}}
   {{- end -}}
+{{- else -}}
+  {{- warnf "forgejo shortcode: unable to get remote resource from %q: %s" $forgejoURL $.Position -}}
 {{- end -}}
 
 {{- with $forgejoData -}}

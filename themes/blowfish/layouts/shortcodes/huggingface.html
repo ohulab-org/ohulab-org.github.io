@@ -16,14 +16,15 @@
 {{- end -}}
 
 {{- $huggingfaceData := dict -}}
-{{- with try (resources.GetRemote $hfAPI) -}}
-  {{- with .Err -}}
+{{- $hfResource := resources.GetRemote $hfAPI -}}
+{{- with $hfResource -}}
+  {{- if .Err -}}
     {{- warnf "huggingface shortcode: failed to fetch remote resource from %q: %s" $hfAPI $.Position -}}
-  {{- else with .Value -}}
-    {{- $huggingfaceData = . | transform.Unmarshal -}}
   {{- else -}}
-    {{- warnf "huggingface shortcode: unable to get remote resource from %q: %s" $hfAPI $.Position -}}
+    {{- $huggingfaceData = .Value | transform.Unmarshal -}}
   {{- end -}}
+{{- else -}}
+  {{- warnf "huggingface shortcode: unable to get remote resource from %q: %s" $hfAPI $.Position -}}
 {{- end -}}
 
 {{- with $huggingfaceData -}}

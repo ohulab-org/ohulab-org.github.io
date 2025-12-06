@@ -15,7 +15,7 @@ series_order: 13
 
 ## Hugo 项目结构
 
-在开始讨论之前，首先简要介绍一下 [Hugo 项目结构](https://gohugo.io/getting-started/directory-struct/) 以及管理内容和主题自定义的最佳方式。
+在开始讨论之前，首先简要介绍一下 [Hugo 项目结构](https://gohugo.io/getting-started/directory-structure/) 以及管理内容和主题自定义的最佳方式。
 
 {{< alert >}}
 **总结：** 切勿直接编辑主题文件。一定要仅在 Hugo 项目的子目录中进行自定义，而不是在主题目录中进行自定义。
@@ -123,6 +123,61 @@ html {
 
 只需更改此值，您网站上的所有字体大小都将调整为此新大小。因此，要增加使用的整体字体大小，请将该值设置为大于 `12pt` 。同样，要减小字体大小，请将值设置为小于 `12pt` 。
 
+### 更换语法高亮主题
+
+Blowfish 使用自定义的语法高亮样式，颜色定义在 `assets/css/schemes` 中。要更换语法高亮主题，请创建 `assets/css/custom.css`，然后添加以下内容：
+
+```css
+.chroma,
+.chroma *,
+.chroma:is(.dark *),
+.chroma:is(.dark *) * {
+  color: unset;
+  font-weight: unset;
+  background-color: unset;
+}
+```
+
+这会清除预设的 Chroma 样式，下一步我们使用 `hugo gen chromastyles` 指令将 Chroma 样式加入到您的 css 档案中：
+
+```sh
+# Mac/Linux
+hugo gen chromastyles --style=emacs | sed 's/\./html:not(.dark) ./' >> assets/css/custom.css
+hugo gen chromastyles --style=evergarden | sed 's/\./html.dark ./' >> assets/css/custom.css
+
+# Windows PowerShell
+# 此命令不能在 CMD 中运行，必须在 PowerShell 中运行
+hugo gen chromastyles --style=emacs | ForEach-Object { $_ -replace '\.', 'html:not(.dark) .' } | Add-Content -Path "css/custom.txt"
+hugo gen chromastyles --style=evergarden | ForEach-Object { $_ -replace '\.', 'html.dark .' } | Add-Content -Path "css/custom.txt"
+```
+
+您的 `custom.css` 档案最后应该会像是以下：
+
+```css
+.chroma,
+.chroma *,
+.chroma:is(.dark *),
+.chroma:is(.dark *) * {
+  color: unset;
+  font-weight: unset;
+  background-color: unset;
+}
+
+/* Generated using: hugo gen chromastyles --style=emacs */
+
+/* Background */ html:not(.dark) .bg { background-color:#f8f8f8; }
+/* PreWrapper */ html:not(.dark) .chroma { background-color:#f8f8f8; }
+/* ... */
+
+/* Generated using: hugo gen chromastyles --style=evergarden */
+
+/* Background */ html.dark .bg { color:#d6cbb4;background-color:#252b2e; }
+/* PreWrapper */ html.dark .chroma { color:#d6cbb4;background-color:#252b2e; }
+/* ... */
+```
+
+在 [Hugo 文档](https://gohugo.io/quick-reference/syntax-highlighting-styles/#styles)中查看所有可用的样式。
+
 ## 从源代码构建主题 CSS
 
 如果您想进行大量更改，您可以利用 Tailwind CSS 的 JIT 编译器并从头开始重建整个主题 CSS。尤其是您想要调整 Tailwind 配置或向主样式表添加额外的 Tailwind 类的时候，这种方法将非常有用。
@@ -196,14 +251,14 @@ npm install
 
 ### 运行 Tailwind 编译器
 
-安装依赖项后，接下来可以使用 [Tailwind CLI](https://v2.tailwindcss.com/docs/installation#using-tailwind-cli) 来调用 JIT 编译器。返回 Hugo 项目的根目录并在终端输入以下命令：
+安装依赖项后，接下来可以使用 [Tailwind CLI](https://tailwindcss.com/docs/installation/tailwind-cli) 来调用 JIT 编译器。返回 Hugo 项目的根目录并在终端输入以下命令：
 
 ```shell
 cd ../..
-./themes/blowfish/node_modules/tailwindcss/lib/cli.js -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit
+./themes/blowfish/node_modules/@tailwindcss/cli/dist/index.mjs -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit
 ```
 
-这个命令稍微有点复杂，因为涉及到几个路径。但本质上你是在调用 Tailwind CLI 并提供下面三个参数： 
+这个命令稍微有点复杂，因为涉及到几个路径。但本质上你是在调用 Tailwind CLI 并提供下面三个参数：
 - Tailwind 配置文件 `tailwind.config.js`
 - 主题的 `main.css` 文件
 - 编译产出后的 CSS 文件的位置 `assets/css/compiled/`
@@ -225,8 +280,8 @@ cd ../..
   "description": "",
   "scripts": {
     "server": "hugo server -b http://localhost -p 8000",
-    "dev": "NODE_ENV=development ./themes/blowfish/node_modules/tailwindcss/lib/cli.js -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
-    "build": "NODE_ENV=production ./themes/blowfish/node_modules/tailwindcss/lib/cli.js -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
+    "dev": "NODE_ENV=development ./themes/blowfish/node_modules/@tailwindcss/cli/dist/index.mjs -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
+    "build": "NODE_ENV=production ./themes/blowfish/node_modules/@tailwindcss/cli/dist/index.mjs -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
   },
   // and more...
 }

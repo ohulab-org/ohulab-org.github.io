@@ -2,7 +2,7 @@
                 title: "blog.muffn.io"
                 tags: [個人サイト]
                 externalUrl: "https://blog.muffn.io/"
-                weight: 201
+                weight: 20
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

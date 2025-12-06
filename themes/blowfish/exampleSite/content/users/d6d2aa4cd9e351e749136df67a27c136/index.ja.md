@@ -2,7 +2,7 @@
                 title: "scottmckendry.tech"
                 tags: [個人サイト]
                 externalUrl: "https://scottmckendry.tech"
-                weight: 451
+                weight: 44
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

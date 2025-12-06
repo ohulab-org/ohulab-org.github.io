@@ -2,7 +2,7 @@
                 title: "the-maze.net"
                 tags: [個人サイト, ブログ]
                 externalUrl: "https://www.the-maze.net/"
-                weight: 571
+                weight: 54
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

@@ -2,7 +2,7 @@
                 title: "blog.lofibean.cc"
                 tags: [Sito personale, Sviluppatore di software, Blog]
                 externalUrl: "https://blog.lofibean.cc"
-                weight: 881
+                weight: 78
                 showDate: false
                 showAuthor: false
                 showReadingTime: false
